@@ -1,0 +1,31 @@
+{
+  "name": "cl-c",
+  "version": "0.0.2",
+  "description": "Function Connection APIs",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha --compilers js:babel-core/register test/**/*.js"
+  },
+  "dependencies": {
+    "cl-curry": "*",
+    "babel-polyfill": "*",
+    "handyp": "*",
+    "lodash": "*"
+  },
+  "devDependencies": {
+    "mocha": "*",
+    "babel": "*",
+    "chokidar": "*",
+    "babel-cli": "*",
+    "babel-core": "*",
+    "babel-preset-es2015": "*",
+    "babel-preset-stage-0": "*"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LoveKino/cl-n.git"
+  },
+  "keywords": [],
+  "author": "ddchen",
+  "license": "MIT"
+}
