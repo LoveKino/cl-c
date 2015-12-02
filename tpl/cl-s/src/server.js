@@ -1,4 +1,4 @@
-import S from 'cl-s';
+import S from './cl-s';
 
 (async () => {
     let server = await S().createServer(8777);

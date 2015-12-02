@@ -32,9 +32,9 @@ let app = () => {
             }
         }),
 
-        w(statics(path.join(__dirname, '../www'), 'page')),
+        w(statics(path.join(__dirname, '../www/lib'), 'page')),
 
-        w(statics(path.join(__dirname, '../www'), 'static')),
+        w(statics(path.join(__dirname, '../www/lib'), 'static')),
 
         w(async (req, res, next) => {
             res.end('hello world!');

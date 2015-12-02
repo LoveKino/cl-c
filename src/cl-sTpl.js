@@ -12,8 +12,6 @@ let createFiles = async (target) => {
     await handyp.copyp(tplPath, target, {
         override: false,
         handler: (info) => {
-            console.log(info.srcPath + ' --> ' + nodeModulePath);
-            console.log('\n');
             if(info.srcPath.indexOf(nodeModulePath) === 0) {
                 return false;
             }

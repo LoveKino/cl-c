@@ -8,11 +8,8 @@ let tplMap = {
 
 module.exports = async (opts) => {
     try {
-        console.log(opts);
         let tpl = opts.tpl || 'es6Tpl';
-        console.log(tpl);
         let fun = tplMap[tpl];
-        console.log(fun);
         if (fun) {
             await fun(opts.target);
         }

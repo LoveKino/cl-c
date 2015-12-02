@@ -6,6 +6,8 @@ import handyp from 'handyp';
 
 let p = path.join(__dirname, '../ignore/test');
 
+p = '/Users/ddchen/Coding/opensource/cl-task';
+
 (async () => {
     await handyp.deletep(p);
     await c({
